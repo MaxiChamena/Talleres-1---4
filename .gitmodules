@@ -1,6 +1,3 @@
-[submodule "lib/cul"]
-        path = lib/cul
-        url = git@github.com:MaxiChamena/util-common.git
-[submodule "lib/cul"]
-        path = lib/cul
-        url = git@github.com:MaxiChamena/ecs.git
+[submodule "path_to_submodule"] 
+  path = path_to_submodule 
+  url = git://url-of-source/
