@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precio y Descuentos</title>
+</head>
+<body>
+    <header>
+        <h1>Porcentaje y Descuentos</h1>
+        <p>Este es el segundo taller del Curso Practico de Javascript</p>
+    </header>
+    <section>
+        <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
+        <form>
+            <label for="InputPrice">Escribe el precio de tu producto: </label>
+            <input id="InputPrice" type="number"/> <br><br>
+
+            <label for="InputCoupon">Escribe el cupon asignado:</label>
+            <input id="InputCoupon" type="text"/>
+
+            <button type="button" onclick="onClickButtonPriceDiscount()">Calcular precio con descuento</button>
+            
+            <p id="ResultP"></p>
+        </form>
+    </section>
+    <section>
+        <p>Estos son los cupones validos: 
+            <nav>
+                <ol>
+                    <li>
+                        up60: Este cupon se utiliza para aquellas personas con una edad mayor a 60 años.
+                    </li> <br>
+
+                    <li>
+                        Galicia_Bank: Este cupon es accesible solo para trabajadores de esta sociedad anonima.
+                    </li> <br>
+
+                    <li>
+                        Cash: Este cupon es un pequeño descuento por el hecho de abonar en efectivo.
+                    </li>
+                </ol>
+            </nav>
+        </p>
+    </section>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
